@@ -17,8 +17,7 @@ composer create-project laravel/laravel laravia
 <pre>cd laravia</pre>
 
 4.) update composer.json add laravia/heart
-> dev version. stable version 1.0 coming soon
-> copy paste all needed packages into
+> The current version available is the developmental version. However, a stable version 1.0 is nearing completion and will be released soon. You can easily obtain the necessary file by copying and pasting the following content into your composer.json file
 <pre>
 {
     "name": "laravel/laravel",
