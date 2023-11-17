@@ -9,7 +9,7 @@
 </pre>
 1.1) config your app
 <pre>
-    cd laravia && cp .env.example .env && nano .env
+    cd laravia && nano .env
 </pre>
 1.2) run migrations
 <pre>
