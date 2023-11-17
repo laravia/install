@@ -19,7 +19,7 @@
 2.) install orchid (with admin user)
 > https://orchid.software/en/docs/installation/
 <pre>
-    composer require orchid/platform && php artisan orchid:install
+    composer require orchid/platform && php artisan orchid:install && php artisan orchid:admin admin admin@admin.com password
 </pre>
 
 3.) install laravia
@@ -44,3 +44,10 @@ Add the 'repositories' section to the bottom of the composer.json file, if it do
 3.1) run composer
 <pre>composer update</pre>
 
+4.) login
+open your browser and open the backend
+<pre>
+    localhost/admin/login
+    user: admin@admin.com
+    password: password
+</pre>
