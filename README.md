@@ -11,6 +11,10 @@
 <pre>
     cd laravia && nano .env
 </pre>
+1.1.1) add MAIL_DEFAULT_RECIPIENT
+<pre>
+    MAIL_DEFAULT_RECIPIENT="your favorite email address"
+</pre>
 1.2) run migrations
 <pre>
     php artisan migrate
